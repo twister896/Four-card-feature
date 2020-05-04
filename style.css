@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;800');
+
+body{
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: 'Poppins';
+    background-color: hsl(0, 0%, 98%);
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.intro{
+    text-align: center;
+}
+
+.notbold{
+    margin-top: 50px;
+    font-weight: 100;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 400;
+    margin:0 auto;
+}
+
+h2{
+    font-size: 18px;
+    font-weight: 200;
+    width:50%;
+    margin:0 auto;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin:15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+img{
+    float: right;
+}
+
+#supervisor{
+    border-top: hsl(180, 62%, 55%) solid 3px;
+}
+
+#teambuilder{
+    border-top: hsl(0, 78%, 62%) solid 3px;
+}
+
+#karma{
+    border-top:hsl(34, 97%, 64%) solid 3px;
+}
+
+#calculator{
+    border-top: hsl(212, 86%, 64%) solid 3px;
+}
+
+footer{
+    text-align: center;
+}
+
+@media screen and (max-width:600px){
+    
+    .container{
+        flex-direction: column;
+    }
+
+}
